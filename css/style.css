@@ -94,7 +94,6 @@
 .main-products .tabpanel .box a .over .btn .bar { position:absolute; left:41px; top:13px; }
 .main-products .tabpanel .box a .over .btn .i-favorite { float:right; width:50%; height:100%; }
 .main-products .tabpanel .box a .over .btn .i-favorite img { padding-top:12px; }
-
 .main-products .tabpanel #panel1-goods1 .over,
 .main-products .tabpanel #panel1-goods2 .over,
 .main-products .tabpanel #panel1-goods3 .over,
@@ -103,5 +102,19 @@
 .main-products .tabpanel #panel1-goods2 a:hover .over,
 .main-products .tabpanel #panel1-goods3 a:hover .over,
 .main-products .tabpanel #panel1-goods4 a:hover .over { display:block; }
-
 .main-products .tabpanel .box a .over .btn .icon:hover {  background:#e67567; }
+
+.about-us { padding-top:20px; text-align:center; }
+.about-us .inner { padding:40px 55px; background:#fff; border-radius:5px; }
+.about-us .inner .title { font-size:4rem; }
+.about-us .inner .text { padding-top:30px; text-align:left; line-height:1.8; font-size:1.5rem; color:#5b5d69; letter-spacing:1.2px; }
+.about-us .inner .btn { padding-top:40px; }
+.about-us .inner .btn a { width:168px; height:41px; border:2px solid #cc5b4d; border-radius:5px; line-height:43px; font-size:1rem; color:#e67567; letter-spacing:5px; }
+.about-us .inner .btn a:hover { border:2px solid #e67567; background:#e67567; color:#fff; }
+
+.blogs { padding-top:35px; text-align:center; }
+.blogs .title { font-size:4rem; }
+.blogs nav {margin-top:30px; height:40px; background:#fff; border-radius:5px; }
+.blogs nav .tablist .tab { display:inline-block; position:relative; margin:0 30px; line-height:40px; }
+.blogs nav .tablist .tab::after { content:''; display:none; position:absolute; left:50%; top:0; margin-left:-2.5px; width:0; height:0; border-top:5px solid #e36556; border-bottom:5px solid none; border-right:5px solid transparent; border-left:5px solid transparent; }
+.blogs nav .tablist .tab:hover::after { display:inline-block; }
