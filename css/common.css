@@ -34,6 +34,7 @@ h1, h2, h3, h4, h5, h6 { font-size:inherit; font-weight:inherit; }
 .l-col-left { float:left; }
 .l-col-right { float:right; }
 .l-col-4 { width:25%; }
+.l-col-160 { width:160px; }
 .l-box-220 { width:220px; }
 .l-box-300 { width:300px; }
 .l-box-620 { width:620px; }

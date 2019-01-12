@@ -28,14 +28,14 @@
 .gnb .pack li:nth-child(5) { background-position: 88% center; }
 .gnb .pack li a { line-height:70px; }
 
-.menu-more { display:none; position:relative; left:0; right:0; top:0;  width:100%; height:440px; background:#fff; }
+.menu-more { position:absolute; left:0; right:0; top:180px; z-index:10; width:100%; height:440px; background:#fff; }
 .menu-more .pack .line { padding-left:20px; height:440px; border-left:1px solid #f2f3f5; box-sizing:border-box; }
 .menu-more .pack .list .title { color:#3c3d48; }
 .menu-more .pack .list .title.blank { padding-top:30px; }
 .menu-more .pack .list li { line-height:26px; color:rgba(91, 93, 105, 0.5); }
 
 /* 메인 */
-#main { padding-bottom:600px; background:#e5e5e5; }
+#main { padding-bottom:20px; background:#e5e5e5; }
 .visual-slider { overflow:hidden; position:relative; width:100%; height:583px; }
 .visual-slider .box { width:100%; height:100%; }
 .visual-slider .box .in { height:100%; }
@@ -118,3 +118,30 @@
 .blogs nav .tablist .tab { display:inline-block; position:relative; margin:0 30px; line-height:40px; }
 .blogs nav .tablist .tab::after { content:''; display:none; position:absolute; left:50%; top:0; margin-left:-2.5px; width:0; height:0; border-top:5px solid #e36556; border-bottom:5px solid none; border-right:5px solid transparent; border-left:5px solid transparent; }
 .blogs nav .tablist .tab:hover::after { display:inline-block; }
+.blogs .tabpanel { padding-top:20px; text-align:left; }
+.blogs .tabpanel .box { overflow:hidden; position:relative; margin-left:20px; height:300px; background:#fff; border-radius:5px; }
+.blogs .tabpanel .box:first-child { margin-left:0; }
+.blogs .tabpanel .box a { padding:30px; height:inherit; box-sizing:border-box; }
+.blogs .tabpanel #panel1-blog1 { background:#fff; }
+.blogs .tabpanel #panel1-blog2 { background:url(../img/blog/life.jpg) no-repeat center; color:#fff; }
+.blogs .tabpanel #panel1-blog3 { background:url(../img/blog/travel.jpg) no-repeat left top #fff; color:#fff; }
+.blogs .tabpanel .box a .tag { display:inline-block; font-size:1rem; color:#fff; letter-spacing:1.5px; }
+.blogs .tabpanel .box a .tag.techno { color:rgba(91, 93, 105, 0.5); }
+.blogs .tabpanel .box a .tag.life { padding:10px 20px; background:#e36556; border-radius:5px; }
+.blogs .tabpanel .box a .text { padding-top:25px; }
+.blogs .tabpanel .box a .text .title { font-size:2rem; }
+.blogs .tabpanel #panel1-blog3 .title { padding-top:90px; }
+.blogs .tabpanel .box a .text .add { padding-top:5px; line-height:1.5; }
+.blogs .tabpanel .box a .text .sub { position:absolute; left:0; right:0; bottom:0; padding-left:30px; line-height:53px; font-size:1.1rem; }
+.blogs .tabpanel .box a .text .sub.time { color:#5b5d69; }
+.blogs .tabpanel .box a .text .sub.user { color:#3c3d48; }
+.blogs .tabpanel .box a .text .sub.user img { vertical-align:middle; }
+.blogs .tabpanel .box a .text .sub.user .nik { padding-left:10px; }
+
+/* 푸터 */
+#footer { background-color:#fff; }
+.footer-top { padding:30px 0; }
+.footer-top .point-more { font-size:1.1rem; }
+.footer-top .point-more .pack .line { padding-left:20px; height:440px; border-left:1px solid #f2f3f5; box-sizing:border-box; }
+.footer-top .point-more .pack .list .title { color:#3c3d48; }
+.footer-top .point-more .pack .list li { line-height:26px; color:rgba(91, 93, 105, 0.5); }
