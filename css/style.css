@@ -28,7 +28,7 @@
 .gnb .pack li:nth-child(5) { background-position: 88% center; }
 .gnb .pack li a { line-height:70px; }
 
-.menu-more { position:absolute; left:0; right:0; top:180px; z-index:10; width:100%; height:440px; background:#fff; }
+.menu-more { display:none; position:absolute; left:0; right:0; top:180px; z-index:10; width:100%; height:440px; background:#fff; }
 .menu-more .pack .line { padding-left:20px; height:440px; border-left:1px solid #f2f3f5; box-sizing:border-box; }
 .menu-more .pack .list .title { color:#3c3d48; }
 .menu-more .pack .list .title.blank { padding-top:30px; }
@@ -122,7 +122,6 @@
 .blogs .tabpanel .box { overflow:hidden; position:relative; margin-left:20px; height:300px; background:#fff; border-radius:5px; }
 .blogs .tabpanel .box:first-child { margin-left:0; }
 .blogs .tabpanel .box a { padding:30px; height:inherit; box-sizing:border-box; }
-.blogs .tabpanel #panel1-blog1 { background:#fff; }
 .blogs .tabpanel #panel1-blog2 { background:url(../img/blog/life.jpg) no-repeat center; color:#fff; }
 .blogs .tabpanel #panel1-blog3 { background:url(../img/blog/travel.jpg) no-repeat left top #fff; color:#fff; }
 .blogs .tabpanel .box a .tag { display:inline-block; font-size:1rem; color:#fff; letter-spacing:1.5px; }
